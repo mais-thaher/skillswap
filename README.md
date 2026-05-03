@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SkillSwap - Skill Exchange Platform
 
 A smart web application that enables users to **exchange skills without financial cost**. Connect with others based on complementary skills, learn from each other, and build a collaborative community.
@@ -178,3 +179,6 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# skillswap
+>>>>>>> 1d38838b8d071ee7592b29376c1205b430444f03
