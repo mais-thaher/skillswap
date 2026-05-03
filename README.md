@@ -1,6 +1,10 @@
 # SkillSwap - Skill Exchange Platform
 
-A modern web application for exchanging skills with others in your community. Built with **React + TypeScript + Vite + Tailwind CSS** with a clean, scalable feature-based architecture.
+A smart web application that enables users to **exchange skills without financial cost**. Connect with others based on complementary skills, learn from each other, and build a collaborative community.
+
+**Core Philosophy**: *Give what you know, learn what you want.*
+
+Built with **React + TypeScript + Vite + Tailwind CSS** with a clean, scalable feature-based architecture.
 
 ## Quick Start
 
@@ -38,12 +42,15 @@ src/
 
 ## Features
 
+- ✅ **User Profiles** - Showcase skills you offer and skills you want to learn
+- ✅ **Smart Matching** - Algorithm suggests users with complementary skills
+- ✅ **Real-time Chat** - Communicate with your matches
+- ✅ **Rating System** - Build trust with post-session feedback
+- ✅ **Points & Rankings** - Gamified experience to encourage participation
+- ✅ **Activity Dashboard** - Track your sessions, ratings, and progress
 - ✅ **Responsive Design** - Mobile-first with Tailwind CSS
 - ✅ **Type-Safe** - Full TypeScript support
 - ✅ **Feature-Based Architecture** - Scalable and modular
-- ✅ **React Router** - Client-side routing
-- ✅ **Reusable Components** - Button, Card, and more
-- ✅ **Modern Tooling** - Vite for fast development
 
 ## Pages
 
@@ -71,14 +78,11 @@ src/
 - `Navbar` - Responsive navigation bar
 - `Sidebar` - Desktop sidebar navigation
 
-## Future Enhancements
+## Project Documentation
 
-- Backend integration (Node.js + Supabase)
-- User authentication
-- Skill management
-- Matching algorithm
-- Real-time chat
-- Reviews and ratings
+- [REQUIREMENTS.md](./REQUIREMENTS.md) - Complete feature specifications and requirements
+- [ARCHITECTURE.md](./ARCHITECTURE.md) - Technical architecture and structure
+- [PROJECT_STATUS.md](./PROJECT_STATUS.md) - Current implementation status
 
 ## Development
 
