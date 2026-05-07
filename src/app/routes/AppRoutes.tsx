@@ -6,6 +6,9 @@ import MainLayout from '../layout/MainLayout';
 import Login from '../../features/auth/Login';
 import Register from '../../features/auth/Register';
 import Dashboard from '../../features/dashboard/Dashboard';
+import Home from '../../features/home/Home';
+import ProfileSimple from '../../features/profile/ProfileSimple';
+import Discover from '../../features/discover/Discover';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -21,13 +24,26 @@ const AppRoutes: React.FC = () => {
         }
       />
       <Route
+        path="/profile"
+        element={
+          <MainLayout>
+            <ProfileSimple />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/discover"
+        element={
+          <MainLayout>
+            <Discover />
+          </MainLayout>
+        }
+      />
+      <Route
         path="/"
         element={
           <MainLayout>
-            <div className="text-center">
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to SkillSwap</h1>
-              <p className="text-lg text-gray-600">Exchange skills with others in your community.</p>
-            </div>
+            <Home />
           </MainLayout>
         }
       />
